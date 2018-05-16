@@ -133,33 +133,33 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv_India.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:system/etc/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/motorola/sanders/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/motorola/sanders/proprietary/lib/hw/camera.msm8953.so:system/lib/hw/camera.msm8953.so \
+    vendor/motorola/sanders/proprietary/lib/hw/camera.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8953.so \
     vendor/motorola/sanders/proprietary/lib/hw/fingerprint.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.vendor.msm8953.so \
-    vendor/motorola/sanders/proprietary/lib/hw/sensors.iio.so:system/lib/hw/sensors.iio.so \
-    vendor/motorola/sanders/proprietary/lib/hw/sensors.rp.so:system/lib/hw/sensors.rp.so \
-    vendor/motorola/sanders/proprietary/lib/hw/sensors.sanders.so:system/lib/hw/sensors.sanders.so \
-    vendor/motorola/sanders/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
-    vendor/motorola/sanders/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
-    vendor/motorola/sanders/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
-    vendor/motorola/sanders/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
-    vendor/motorola/sanders/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
+    vendor/motorola/sanders/proprietary/lib/hw/sensors.iio.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.iio.so \
+    vendor/motorola/sanders/proprietary/lib/hw/sensors.rp.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.rp.so \
+    vendor/motorola/sanders/proprietary/lib/hw/sensors.sanders.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.sanders.so \
+    vendor/motorola/sanders/proprietary/lib/lib_fpc_tac_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_fpc_tac_shared.so \
+    vendor/motorola/sanders/proprietary/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
+    vendor/motorola/sanders/proprietary/lib/libadropbox.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadropbox.so \
+    vendor/motorola/sanders/proprietary/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
+    vendor/motorola/sanders/proprietary/lib/libcom_fingerprints_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom_fingerprints_service.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_api_v02.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ds_api.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
-    vendor/motorola/sanders/proprietary/lib/libmbs.so:system/lib/libmbs.so \
+    vendor/motorola/sanders/proprietary/lib/libmbs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmbs.so \
     vendor/motorola/sanders/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
-    vendor/motorola/sanders/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/motorola/sanders/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/motorola/sanders/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/motorola/sanders/proprietary/lib/libmot_afd.so:system/lib/libmot_afd.so \
-    vendor/motorola/sanders/proprietary/lib/libmot_lux_standardization.so:system/lib/libmot_lux_standardization.so \
-    vendor/motorola/sanders/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
-    vendor/motorola/sanders/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
-    vendor/motorola/sanders/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
+    vendor/motorola/sanders/proprietary/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
+    vendor/motorola/sanders/proprietary/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
+    vendor/motorola/sanders/proprietary/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
+    vendor/motorola/sanders/proprietary/lib/libmot_afd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_afd.so \
+    vendor/motorola/sanders/proprietary/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
+    vendor/motorola/sanders/proprietary/lib/libmotext_inf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotext_inf.so \
+    vendor/motorola/sanders/proprietary/lib/libmotimager_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotimager_utils.so \
+    vendor/motorola/sanders/proprietary/lib/libqmimotext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmimotext.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
-    vendor/motorola/sanders/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
-    vendor/motorola/sanders/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/sanders/proprietary/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
+    vendor/motorola/sanders/proprietary/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
     vendor/motorola/sanders/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/motorola/sanders/proprietary/vendor/bin/esepmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/esepmdaemon \
     vendor/motorola/sanders/proprietary/vendor/bin/mm-pp-dpps:$(TARGET_COPY_OUT_VENDOR)/bin/mm-pp-dpps \
@@ -495,7 +495,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_ext.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libloc_externalDr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libloc_externalDr.so \
     vendor/motorola/sanders/proprietary/vendor/lib/liblowi_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/liblowi_client.so \
-    vendor/motorola/sanders/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
+    vendor/motorola/sanders/proprietary/lib/libzxingcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzxingcpp.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_imx362.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5695.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libqmi_csvt_srvc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_csvt_srvc.so \
@@ -523,7 +523,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libactuator_mot_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_mot_ak7371.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_ar1335_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ar1335_common.so \
-    vendor/motorola/sanders/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/sanders/proprietary/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libalarmservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalarmservice_jni.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libasn1cper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1cper.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libasn1crt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1crt.so \
@@ -900,9 +900,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
-    vendor/motorola/sanders/proprietary/lib/libjson.so:system/lib/libjson.so \
-    vendor/motorola/sanders/proprietary/lib/libuiblur.so:system/lib/libuiblur.so \
-    vendor/motorola/sanders/proprietary/lib/libmemalloc.so:system/lib/libmemalloc.so \
+    vendor/motorola/sanders/proprietary/lib/libjson.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjson.so \
+    vendor/motorola/sanders/proprietary/lib/libuiblur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuiblur.so \
+    vendor/motorola/sanders/proprietary/lib/libmemalloc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemalloc.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libprotobuf-cpp-shit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-shit.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libprotobuf-cpp-biss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-biss.so \
     vendor/motorola/sanders/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
@@ -1023,13 +1023,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_mot_s5k3l8_mono_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3l8_mono_zsl_video_3a.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_snapshot_custom.so \
     vendor/motorola/sanders/proprietary/vendor/bin/sensors.qcom:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qcom \
-    vendor/motorola/sanders/proprietary/lib/libaptXHD_encoder.so:system/lib/libaptXHD_encoder.so \
-    vendor/motorola/sanders/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/motorola/sanders/proprietary/lib/libaptXHD_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptXHD_encoder.so \
+    vendor/motorola/sanders/proprietary/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaptX_encoder.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libDRPlugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDRPlugin.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libdrmfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmfs.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libdrmtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrmtime.so \
     vendor/motorola/sanders/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/motorola/sanders/proprietary/lib64/libperipheral_client.so:system/lib64/libperipheral_client.so \
+    vendor/motorola/sanders/proprietary/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
     vendor/motorola/sanders/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/motorola/sanders/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
@@ -1263,19 +1263,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0_vendor.so \
     vendor/motorola/sanders/proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar:system/framework/com.qualcomm.qti.imscmservice@1.0-java.jar \
     vendor/motorola/sanders/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
-    vendor/motorola/sanders/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
-    vendor/motorola/sanders/proprietary/lib/libsdm-disp-apis.so:system/lib/libsdm-disp-apis.so \
-    vendor/motorola/sanders/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
-    vendor/motorola/sanders/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
+    vendor/motorola/sanders/proprietary/lib/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsd_sdk_display.so \
+    vendor/motorola/sanders/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsdm-disp-apis.so \
+    vendor/motorola/sanders/proprietary/lib64/libsd_sdk_display.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsd_sdk_display.so \
+    vendor/motorola/sanders/proprietary/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
     vendor/motorola/sanders/proprietary/vendor/lib/libOmxVideoDSMode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVideoDSMode.so \
     vendor/motorola/sanders/proprietary/lib64/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib64/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/sanders/proprietary/lib/vendor.qti.hardware.qdutils_disp@1.0.so:system/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/motorola/sanders/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/motorola/sanders/proprietary/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so \
-    vendor/motorola/sanders/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
+    vendor/motorola/sanders/proprietary/lib64/liblocationservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblocationservice_jni.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libquipc_os_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libquipc_os_api.so \
-    vendor/motorola/sanders/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
+    vendor/motorola/sanders/proprietary/lib64/libxt_native.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxt_native.so \
     vendor/motorola/sanders/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_ulp_adaptor.so \
     vendor/motorola/sanders/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server
 
