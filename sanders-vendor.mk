@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/sanders/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
@@ -96,6 +97,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/etc/firmware/nvm_tlv_2.1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_2.1.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/nvm_tlv_3.0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.0.bin \
     vendor/motorola/sanders/proprietary/etc/firmware/nvm_tlv_3.2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nvm_tlv_3.2.bin \
+    vendor/motorola/sanders/proprietary/etc/firmware/opalum.rx.ext.config.0:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.0 \
+    vendor/motorola/sanders/proprietary/etc/firmware/opalum.rx.ext.config.1:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.1 \
+    vendor/motorola/sanders/proprietary/etc/firmware/opalum.rx.ext.config.2:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.2 \
+    vendor/motorola/sanders/proprietary/etc/firmware/opalum.rx.ext.config.3:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.rx.ext.config.3 \
+    vendor/motorola/sanders/proprietary/etc/firmware/opalum.tx.ext.config.0:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.0 \
+    vendor/motorola/sanders/proprietary/etc/firmware/opalum.tx.ext.config.1:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.1 \
+    vendor/motorola/sanders/proprietary/etc/firmware/opalum.tx.ext.config.2:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.2 \
+    vendor/motorola/sanders/proprietary/etc/firmware/opalum.tx.ext.config.3:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.3 \
     vendor/motorola/sanders/proprietary/etc/firmware/rampatch_tlv.img:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv.img \
     vendor/motorola/sanders/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_1.3.tlv \
     vendor/motorola/sanders/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/rampatch_tlv_2.1.tlv \
