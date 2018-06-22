@@ -1295,6 +1295,28 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:system/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/sanders/proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:system/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
 
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libAndroidJniUtilsJni.so:system/priv-app/GCam/lib/arm64/libAndroidJniUtilsJni.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libJniUtilsJni.so:system/priv-app/GCam/lib/arm64/libJniUtilsJni.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libadsprpc_app_N.so:system/priv-app/GCam/lib/arm64/libadsprpc_app_N.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libfacebeautification.so:system/priv-app/GCam/lib/arm64/libfacebeautification.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libfilterframework_jni.so:system/priv-app/GCam/lib/arm64/libfilterframework_jni.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libgcam_jni.so:system/priv-app/GCam/lib/arm64/libgcam_jni.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libgyrostabilization-jni.so:system/priv-app/GCam/lib/arm64/libgyrostabilization-jni.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libhalide_hexagon_host_app.so:system/priv-app/GCam/lib/arm64/libhalide_hexagon_host_app.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libjni_faceutil.so:system/priv-app/GCam/lib/arm64/libjni_faceutil.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libjni_imgutil.so:system/priv-app/GCam/lib/arm64/libjni_imgutil.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libjni_jpegutil.so:system/priv-app/GCam/lib/arm64/libjni_jpegutil.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libjni_yuvutil.so:system/priv-app/GCam/lib/arm64/libjni_yuvutil.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/liblensoffsetcalculation-jni.so:system/priv-app/GCam/lib/arm64/liblensoffsetcalculation-jni.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/liblightcycle.so:system/priv-app/GCam/lib/arm64/liblightcycle.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libnativehelper_compat_libc++.so:system/priv-app/GCam/lib/arm64/libnativehelper_compat_libc++.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/liboliveoil.so:system/priv-app/GCam/lib/arm64/liboliveoil.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/librefocus.so:system/priv-app/GCam/lib/arm64/librefocus.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/librsjni.so:system/priv-app/GCam/lib/arm64/librsjni.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libsmartburst-jni.so:system/priv-app/GCam/lib/arm64/libsmartburst-jni.so \
+    vendor/motorola/sanders/proprietary/priv-app/GCam/lib/arm64/libvision_face_jni.so:system/priv-app/GCam/lib/arm64/libvision_face_jni.so
+
 PRODUCT_PACKAGES += \
     TimeService \
     embms \
@@ -1322,6 +1344,6 @@ PRODUCT_PACKAGES += \
     tcmclient \
     com.quicinc.cne.api-V1.0-java \
     QtiTelephonyService \
-    CNEService
-
+    CNEService \
+    GCam
 
